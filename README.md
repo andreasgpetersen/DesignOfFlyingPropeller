@@ -2,10 +2,11 @@
 Bachelor thesis at DTU 2020. AbstractThis thesis focuses on building, programming, and controlling a novel type of dronedesign. The drone behaves like a helicopter rotor as it rotates around its z-axis to cre-ate the lift necessary to keep it airborne.
 
 The drone has three large wings, and rotates around its own z-axis to create lift, with one Teensy Microcontroller to control each wing. 
-![Photo of final drone](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Photo of final drone](https://github.com/andreasgpetersen/DesignOfFlyingPropeller/blob/main/report/figures/IMG_0313.JPG)
 
 All three Teensy boards send oirentation/location data to the Raspberry Pi which then computes the next control inputs. This runs in an infinite loop. The communication and power channels of the drones can be seen below: 
-![The drone's power and communication channels](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Overview of communication and power channels](https://github.com/andreasgpetersen/DesignOfFlyingPropeller/blob/main/report/figures/analysis/Propeller_Drone_Block_Diagram.pdf)
+
 
 This code consists of two components:
 
