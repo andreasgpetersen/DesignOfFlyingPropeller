@@ -1,5 +1,7 @@
 # Design Of Flying Propeller
-Bachelor thesis at DTU 2020. AbstractThis thesis focuses on building, programming, and controlling a novel type of dronedesign. The drone behaves like a helicopter rotor as it rotates around its z-axis to cre-ate the lift necessary to keep it airborne.
+Bachelor thesis at DTU 2020. This thesis focuses on building, programming, and controlling a novel type of dronedesign. The drone behaves like a helicopter rotor as it rotates around its z-axis to cre-ate the lift necessary to keep it airborne.
+
+Test flight while suspended mid air: https://www.youtube.com/watch?v=Mw67W8S0a4E
 
 The drone has three large wings, and rotates around its own z-axis to create lift, with one Teensy Microcontroller to control each wing. 
 ![Photo of final drone](https://github.com/andreasgpetersen/DesignOfFlyingPropeller/blob/main/report/figures/IMG_0313.JPG)
@@ -58,5 +60,5 @@ calibration.
 All boards are calibrated to be used in ASTA at DTU. If used elsewhere, recalibrate. 
 
 This code has been developed by Jonas Brøndum (s173952@student.dtu.dk) and
-Andreas Grønbech Petersen (s173901@student.dtu.dk)
+Andreas Grønbech Petersen (andreasgp@protonmail.com / s173901@student.dtu.dk)
 as part of a Bachelor Thesis in Electrical Engineering at DTU, June 2020 
