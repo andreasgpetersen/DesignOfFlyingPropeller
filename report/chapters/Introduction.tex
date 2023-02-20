@@ -1,0 +1,43 @@
+%!TEX root = ../Thesis.tex
+\chapter{Introduction}\label{chap:introduction}
+
+Autonomous drones have become increasingly important in the field of surveillance and disaster control. However, traditionally designed drones today have a very short flight duration due to their high power usage and high weight (\cite{mavic2}\cite{MG-1}\cite{AutelEvo}). Though these drones cannot stay in the air for long, they can traverse long distances very fast. Such drones can also be configured for carrying heavy payloads because of their powerful motors. However, a drone of such design is not fit for all missions. As the drones are not very efficient, in the sense that while they can have large batteries and strong motors, they have short flight times. There is a need for drones that can carry a small payload, and have very long flight times. These can be useful for local surveillance, mobile cell towers or any type of temporary in-the-air infrastructure.  
+
+The purpose of this project is to analyze an alternate design compared to traditional multirotor drones. This vehicle is an adaptation of a helicopter rotor. Its rotational velocity will create lift from the aerodynamic forces acting upon its wings.
+
+A central processing unit (CPU) will collect sensor data from each wing. The collected data will be analyzed in real-time for further navigation, and control of the drone. This includes the rotational speed.
+
+\section{Objectives}\label{sec:objectives}
+In this section, the objectives of the project are defined. Further analysis and design of a solution will be conducted to fulfill these objectives. Analysis will be done in chapter 2, and design as well as review of the results will be done in the subsequent chapters. \\
+The proposed solution should:
+\begin{itemize}
+    \item Control its rotational speed relative to a reference set-point. 
+    \item Read sensory data for real-time analysis and log for later use. 
+    \item Have full control of and ability to adjust all motors, propeller and servo, of each arm.
+    \item Be able to estimate its relative orientation continuously.
+\end{itemize}
+
+\subsection{Constraints}
+In order to reduce the scope of this project, a few constraints regarding design and project decisions have been made:
+\begin{itemize}
+    \item Only a simple analysis of aerodynamic challenges will done.
+    \item Uncomplicated and easy to implement communication, which might not favor speed and efficiency, will be used. 
+    \item Only SISO linear regulators will be considered.
+    \item The general core configuration of the drone will not be changed. 
+\end{itemize}
+
+\section{Report overview}
+\begin{itemize}
+    \item \textbf{Chapter 2:} Analysis and definition of the problem for the thesis
+    \item \textbf{Chapter 3:} How the drone's hardware and software is restructured. Includes internal communication.
+    \item \textbf{Chapter 4:} The implementation and calibration of sensor data within the drone
+    \item \textbf{Chapter 5:} Physical analysis and control theory used to approximate the system
+    \item \textbf{Chapter 6:} Detailed modelling approach and structure
+    \item \textbf{Chapter 7:} Results from measurements on all test setups
+    \item \textbf{Chapter 8:} Proposals and ideas for further development and refinement of the drone. This also includes retrospective discussions.
+    \item \textbf{Chapter 9:} Conclusion upon project objectives
+    \item \textbf{Bibliography:} Bibliography with references used throughout the report
+    \item \textbf{Appendix A:} Additional model and system graphics
+    \item \textbf{Appendix B:} Link to video of flight test
+    \item \textbf{Appendix C:} Test of yaw drift
+\end{itemize}

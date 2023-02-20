@@ -1,0 +1,54 @@
+\chapter{Future Work}\label{chap:futurework}
+Further improvements and future work consist of (but are not limited to):
+\begin{itemize}
+    \item Physical changes in both wheels and wing types
+    \item Increasing RPi sample rate by improving communication
+    \item Tilt controller, for a more stable flight
+    \item Rotational based height regulator. This would require new height measuring devices e.g., sonic sensor et al.
+    \item Software fail-safes to increase robustness and safety of the drone
+    \item Exploring other purposes for this drone-type
+\end{itemize}
+
+\section{Physical changes}\label{sec:futureworkphysicalchanges}
+The most significant drawbacks of the current state of the drone have proven to be the wings and the wheels.\\
+As seen from the final flight tests, the drone does not have the necessary power to lift and maintain a hover condition for itself. This can be fixed either with more powerful thrust or larger wings with more lift potential. The former solution bears diminishing returns and has in previous configurations been shown to create unnecessary instability with e.g., larger propellers. The latter solution, however, can prove to be a turning-point as the mass of each wing compared to their lifting capabilities is minuscule. On the contrary, the new wings would probably require a more rigid frame or redesigning the drone structure altogether.\\
+The wheels have also shown that they currently introduce a large damping offset when the drone is grounded. This issue will play a rather vital role if the drone was to take off directly from the ground.\\
+As seen in section \ref{sec:poweruse} the energy usage of the drone is little (compared to the drones mentioned in section \ref{sec:stateoftheart}), but so is the flight time. 
+There are numerous reasons for this low flight time and why it easily can be improved:
+Firstly, when the drone took off, the ratio between rotational speed and tilt angle was not optimal. Most likely, the drone can take off at a lower rotational speed with the same angle, especially if the size of the wings is increased. This reduces the power used substantially. 
+Secondly, when the weight of the drone has been slimmed down, a battery with higher capacity can be mounted. Afterwards, the optimal battery-capacity-to-weight ratio can be found. A fitting ratio will increase the flight time, while still enabling the drone to fly. 
+Thirdly, when the size of the wings is increased, the lift generated at the same energy usage will increase. This means that it might even be possible to increase the weight of the drone relative to the current weight and consequently use a battery with larger capacity. 
+Implementing all of the above changes should result in a design, which lets the drone fly for far longer periods of time. 
+
+
+
+
+\section{Improving internal communication}\label{sec:communicationimprove}
+The drone is, for the time being, fitted to do both I2C and USB communication internally. USB communication was deemed more convenient and fast-enough for the scope of this project.\\
+Using polling instead of interrupts could potentially increase the performance of the MPU9250. This would result in more frequent updates of accelerometer and gyroscope data, which might yield better results even though the magnetometer data would be reused in multiple iterations of the filter algorithm. The USB communication could also potentially be improved to reach far higher update frequencies for more accurate data exchange for the control loops (and data analysis). An implementation in a more efficient language like C++ might also be favorable. \\
+The primary issue with the USB communication's current implementation is the constant opening and closing of ports. The code could be restructured, such that the ports open when the device starts and only closes when it shuts down. This would greatly minimize the transition period, and thus increase the possible sampling frequency. Another solution is to use I2C. The learning curve for I2C might be at bit steeper than USB, but it can be a faster form of communication in some cases. Furthermore, USB, unlike I2C, has the advantage of no packet loss. 
+
+
+
+Though the drone has not needed faster communication for this part of its development, it might need to be improved in the future. 
+
+
+\section{Additional controllers}
+The rotational controller is only the beginning for the regulation of the drone as a system. Two vital controllers need to be implemented in the form of a tilt controller and a height controller. \\
+The tilt controller will ensure that the wings and motors work together to maintain a hover condition where the drone is level to the ground. This is crucial for maximizing power and general efficiency.\\
+The second controller, the height controller, will be equally necessary, but can, in this case, be built as an extension of the rotational controller with decent approximations of required rotation for hover, descent, and ascent adjusted from the world of helicopter physics. In order for this controller to be realizable, a height sensor of some kind (GPS, sonic, infrared, etc.) must be attached for altitudes below a certain threshold. The drone already has a barometer, but it is not sufficiently accurate to account for the sole altitude estimation, similar to the case of rotational orientation from the IMU used. \\
+Lastly, the rotational controller will need to be reconfigured for i.e., gain scheduling to account for the general non-linearity of the drone's behavior. 
+
+\section{From prototype to product}
+As of now, this drone is only a proof-of-concept, and as such, it is only a prototype. Therefore, it is both obvious and necessary for future development to build and implement fail-safes into the system such that it does not create hazardous situations for humans and the surroundings. Additionally, keeping the drone in one piece between more and more extensive test flights is desirable. \\
+Most importantly these fail-safes will be implemented to eventually take over any safety control, such that its tasks can be automated.\\
+The drone's commercial or industrial purposes aren't crystal clear, but some proposed use cases are:
+\begin{itemize}
+    \item Mobile antenna:
+    \begin{itemize}
+        \item Weather station
+        \item Signal relay
+    \end{itemize}
+    \item Natural disaster beacon
+    \item General surveillance
+\end{itemize}

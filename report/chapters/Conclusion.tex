@@ -1,0 +1,11 @@
+%!TEX root = ../Thesis.tex
+\chapter{Conclusion}\label{chap:conclusion}
+
+This thesis presents a solution to the drone's rotational controller as well as orientation estimation based on sensor measurements. A novel drone design similar to the one of a helicopter, was explored.\\
+The orientation estimation was implemented with a filter fusion algorithm using the IMU's sensor data. An estimation was able to locate the drone in its rotational position regarding the true north. These tests were carried out both on and off the ground. The estimation performed reliably at small velocities but fared worse at larger velocities. \\
+
+The drone was fitted with wings, and a new frame, such that it could sustain the forces applied when in motion.
+The drone's natural transfer function from motor voltage to rotational velocity was derived and used to develop a controller.\\
+The controller designed was able to respond fast to changes in reference point due to its feed-forward branch. It was shown that the drone needed a PD-controller, which resulted in exceptional fine-tuning, but also the system damping required to minimize any overshoot. 
+Finally, the drone was able to take off when tested for lifting capabilities. It was shown that the drone could take off under the right conditions.\\
+In conclusion, the objectives listed in section 1.2 are fulfilled, and the drone functions as intended.

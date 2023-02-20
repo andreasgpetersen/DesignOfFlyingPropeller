@@ -1,0 +1,747 @@
+Scanning...
+
+I2C device found at address 0x68  !
+
+I2C device found at address 0x77  !
+
+done
+
+
+MPU9250 9-axis motion sensor...
+
+MPU9250 I AM 71 I should be 71
+
+MPU9250 is online...
+
+x-axis self test: acceleration trim within : 3.2% of factory value
+
+y-axis self test: acceleration trim within : -1.1% of factory value
+
+z-axis self test: acceleration trim within : 3.4% of factory value
+
+x-axis self test: gyration trim within : -2.0% of factory value
+
+y-axis self test: gyration trim within : 1.2% of factory value
+
+z-axis self test: gyration trim within : 0.7% of factory value
+
+ Calibrate gyro and accel
+
+accel biases (mg)
+
+114.99
+
+-75.56
+
+21.18
+
+gyro biases (dps)
+
+1.77
+
+2.66
+
+0.75
+
+MPU9250 initialized for active data mode....
+
+AK8963 I AM 48 I should be 48
+
+AK8963 initialized for active data mode....
+
+Mag Calibration: Wave device in a figure eight until done!
+
+Mag Calibration done!
+
+AK8963 mag biases (mG)
+
+75.52
+
+279.61
+
+-156.56
+
+AK8963 mag scale (mG)
+
+1.18
+
+0.93
+
+0.93
+
+X-Axis sensitivity adjustment value 1.20
+
+Y-Axis sensitivity adjustment value 1.20
+
+Z-Axis sensitivity adjustment value 1.16
+
+MS5637 pressure sensor reset...
+
+PROM dta read:
+
+C0 = 0
+
+C1 = 0
+
+C2 = 0
+
+C3 = 0
+
+C4 = 0
+
+C5 = 0
+
+C6 = 0
+
+Checksum = 0 , should be 0
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 0.03 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50839.32 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50846.15 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50828.73 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50848.03 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50849.40 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50849.14 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.7 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50842.63 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50832.25 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50844.80 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50849.51 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50847.03 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50843.20 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50836.84 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50840.10 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50849.02 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50848.85 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50844.00 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50837.48 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50835.70 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50849.50 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50848.60 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50846.06 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50843.64 Hz
+
+ax = 0.00 ay = 0.00 az = 0.00 mg
+
+gx = 0.00 gy = 0.00 gz = 0.00 deg/s
+
+mx = 0 my = 0 mz = 0 mG
+
+q0 = 1.00 qx = 0.00 qy = 0.00 qz = 0.00
+
+Gyro temperature is 26.8 degrees C
+
+Digital temperature value = 20.00 C
+
+Digital temperature value = 68.00 F
+
+Digital pressure value = 0.00 mbar
+
+Altitude = 145366.45 feet
+
+Yaw, Pitch, Roll: 13.80, 0.00, 0.00
+
+Grav_x, Grav_y, Grav_z: 0.00, 0.00, 1000.00 mg
+
+Lin_ax, Lin_ay, Lin_az: 0.00, 0.00, -1000.00 mg
+
+rate = 50833.23 Hz
+
