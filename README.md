@@ -5,7 +5,7 @@ The drone has three large wings, and rotates around its own z-axis to create lif
 ![Photo of final drone](https://github.com/andreasgpetersen/DesignOfFlyingPropeller/blob/main/report/figures/IMG_0313.JPG)
 
 All three Teensy boards send oirentation/location data to the Raspberry Pi which then computes the next control inputs. This runs in an infinite loop. The communication and power channels of the drones can be seen below: 
-![Overview of communication and power channels](https://github.com/andreasgpetersen/DesignOfFlyingPropeller/blob/main/report/figures/analysis/Propeller_Drone_Block_Diagram.pdf)
+![Overview of communication and power channels](https://github.com/andreasgpetersen/DesignOfFlyingPropeller/blob/main/report/figures/analysis/Propeller_Drone_Block_Diagram.png)
 
 
 This code consists of two components:
